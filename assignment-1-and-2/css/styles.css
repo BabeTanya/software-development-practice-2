@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #3c3c3c;
+}
+
+#heading {
+  padding: 20px 150px;
+  background-color: #1fd2b9;
+  color: #FFF;
+}
+
+#menu {
+  padding: 20px 150px;
+}
+
+#menu > a {
+  color: #3c3c3c;
+  padding: 10px;
+}
+
+#menu > a.inactive {
+  text-decoration: none;
+}
+
+#menu > a.active {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 0 150px;
+}
+
+.inline-heading {
+  display: inline;
+}
+
+img.content {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-space {
+  margin: 10px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.form-group > label {
+  display: inline-block;
+  width: 150px;
+}

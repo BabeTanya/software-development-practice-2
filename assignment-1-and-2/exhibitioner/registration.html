@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel & Tour Expo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <div id="heading">
+      <h1 class="inline-heading">Travel & Tour Expo</h1>
+      <h5 class="inline-heading">NO 1 Travel exhibition in Thailand</h5>
+    </div>
+    <nav id="menu">
+      <a href="../index.html" class="inactive">หน้าหลัก</a>
+      <a href="exhibitioner/registration.html" class="active">ลงทะเบียนแสดงสินค้า</a>
+    </nav>
+    <div id="content">
+      <div class="text-center heading-space">
+        <h3>แบบฟอร์มลงทะเบียนแสดงสินค้า</h3>
+      </div>
+      <form id="registration_form" method="post" action="submit_form">
+        <div class="form-group">
+          <label for="company_name">ชื่อบริษัท</label>
+          <input type="text" name="company_name" id="company_name">
+        </div>
+        <div class="form-group">
+          <label for="booth_size">ขนาดบูธ</label>
+          <select name="booth_size" id="booth_size">
+            <option value="10x10">10x10 ฟุต</option>
+            <option value="10x15">10x15 ฟุต</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="seat_count">จำนวนเก้าอี้</label>
+          <input type="number" name="seat_count" id="seat_count">
+        </div>
+        <div class="form-group">
+          <label for="contact_name">ชื่อผู้ติดต่อ</label>
+          <input type="text" name="contact_name" id="contact_name">
+        </div>
+        <div class="form-group">
+          <label for="contact_number">เบอร์ผู้ติดต่อ</label>
+          <input type="text" name="contact_number" id="contact_number">
+        </div>
+
+        <div class="form-group">
+          <label for="contact_number"></label>
+          <input type="submit" text="Submit" id="submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
