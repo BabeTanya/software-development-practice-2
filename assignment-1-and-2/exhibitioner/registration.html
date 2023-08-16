@@ -3,6 +3,7 @@
   <head>
     <title>Travel & Tour Expo</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/register.js"></script>
   </head>
   <body>
     <div id="heading">
@@ -17,7 +18,7 @@
       <div class="text-center heading-space">
         <h3>แบบฟอร์มลงทะเบียนแสดงสินค้า</h3>
       </div>
-      <form id="registration_form" method="post" action="submit_form">
+      <form id="registration_form" name="registration_form" onsubmit="return submitForm();">
         <div class="form-group">
           <label for="company_name">ชื่อบริษัท</label>
           <input type="text" name="company_name" id="company_name">
@@ -25,6 +26,7 @@
         <div class="form-group">
           <label for="booth_size">ขนาดบูธ</label>
           <select name="booth_size" id="booth_size">
+            <option value=""></option>
             <option value="10x10">10x10 ฟุต</option>
             <option value="10x15">10x15 ฟุต</option>
           </select>
@@ -43,7 +45,7 @@
         </div>
 
         <div class="form-group">
-          <label for="contact_number"></label>
+          <label for=""></label>
           <input type="submit" text="Submit" id="submit">
         </div>
       </form>
